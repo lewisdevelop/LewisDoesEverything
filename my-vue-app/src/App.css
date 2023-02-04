@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body {
+  background: linear-gradient(to bottom right, #ffe8a5, #fff6d9);
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --iconSplit: 10px;
+}
+
+.roundedDiv {
+  width: 370px;
+  height: 400px;
+  background-color: rgb(232, 235, 236);
+  border-radius: 10%;
+}
+
+.smallRoundedDiv {
+  width: 180px;
+  height: 25px;
+  margin: 0 auto;
+  background-color: rgb(97, 98, 99);
+  border-radius: 40px;
+}
+
+.profileSettings {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+  object-fit: cover;
+  padding-top: 20px;
+  overflow: hidden;
+  transition: transform 1.5s;
+}
+
+.profileSettings:hover {
+  transform: rotate(360deg)
+}
+
+.LDEname {
+  font-family: 'Audiowide', cursive;
+  padding-top: -20px;
+}
+
+.fa-youtube {
+  font-size: 18px;
+  margin-right: var(--iconSplit);
+  color: #ff0000;
+}
+
+.fa-twitter {
+  font-size: 18px;
+  margin-right: var(--iconSplit);
+  color: #00ACEE;
+}
+
+.fa-twitch {
+  font-size: 18px;
+  margin-right: var(--iconSplit);
+  color: #6542a7;
+}
+
+.fa-discord {
+  font-size: 18px;
+  margin-right: var(--iconSplit);
+  color: #5865f2;
+}
+
+.fa-patreon {
+  font-size: 18px;
+  margin-right: var(--iconSplit);
+  color: #FF424D;
+}
